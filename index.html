@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 1 -->
+    <form class="form1">
+        <h2 class="title">Task List</h2>
+        <div class="container">
+            <label class="new-task-label" for="new-task">New task:</label>
+            <input type="text" id="new-task">
+            <button type="submit" id="add-task">Add</button>
+        </div>
+        <ul id="task-list">
+        </ul>
+    </form>
+    <!-- 2 -->
+
+    <form class="form-info">
+        <h2 class="form-info__title">Введіть свої данні</h2>
+        <div class="info-container">
+            <input type="text" class="input-login" placeholder="введіть логін користувача ">
+            <input type="text" class="input-password" placeholder="введіть пароль колистувача">
+        </div>
+        <div class="info-container2">
+            <button type="submit" class="button-info">submit</button>
+            <p class="text-info"></p>
+        </div>
+    </form>
+    <!-- 3 -->
+    <div class="bookmark">
+        <h2 class="bookmark-title">'Закладки'</h2>
+        <div class="container">
+            <input type="text" class="bookmark-input-link" placeholder="Введіть посилання на закладку">
+            <button class="btn-add-bookmark" type="button">add</button>
+        </div>
+        <ul class="bookmarks"></ul>
+    </div>
+    <!-- 4 -->
+    <div class="user-info-container">
+        <form class="form-user-info">
+            <div class="input-container">
+                <input type="text" class="form-name-input" placeholder="введіть імʼя">
+                <input type="text" class="form-surname-input" placeholder="введіть прізвище">
+                <input type="text" class="form-email-input" placeholder='введіть емейл'>
+            </div>
+            <button type="submit" class="button-submit">submit</button>
+            <button type="button" class="button-clear">clear</button>
+        </form>
+        <h4>Ваші данні:</h4>
+        <p class="name"></p>
+        <p class="surname"></p>
+        <p class="email"></p>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
